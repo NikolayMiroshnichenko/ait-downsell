@@ -47,12 +47,21 @@
     width: calc(100% - 40px);
     margin-left: 40px;
   }
+  .program-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0;
+  }
   .program-btn-close {
-    margin-bottom: 70px;
+    margin-bottom: 10px;
+    margin-top: 80px;
   }
   .program-btn-close span {
     width: 100%;
-    top: 100%;
+    top: -80px;
+    text-align: center;
     left: 0;
     padding: 20px 0;
     transform: translateY(0);
@@ -66,6 +75,9 @@
   }
   .tariffs-list__item {
     margin-bottom: 40px;
+  }
+  .speek-participants__title {
+    font-size: 30px;
   }
   .video-block {
     width: 100%;
@@ -129,6 +141,10 @@
   .main-wrapper {
     margin-bottom: 20px;
   }
+  .nav-btn {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
   .nav {
     width: 70%;
   }
@@ -142,14 +158,22 @@
     padding: 40% 0;
   }
   .main-title {
-    font-size: 28px;
+    font-size: 32px;
+  }
+  .main-title-pro {
+    font-weight: 300;
   }
   .main-text {
-      font-size: 14px;
+    font-weight: 600;
+    font-size: 14px;
     padding-right: 0;
   }
   .btn {
-      padding: 10px 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
     font-size: 14px;
   }
   .about-tariff-title {
@@ -169,16 +193,16 @@
     padding: 0;
   }
   .program-list__item {
-    width: calc(100% - 20px);
-    margin-left: 20px;
-    padding-left: 30px;
+    width: 100%;
+    margin-left: 0;
+    padding: 80px 0 80px 0;
+    border: none;
   }
   .program-list__number {
-    width: 40px;
-    height: 40px;
-  }
-  .program-list__number {
-    font-size: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 70px;
+    height: 70px;
   }
   .program-content__name {
     text-align: center;
@@ -191,54 +215,71 @@
     box-sizing: border-box;
   }
   .program-btn-close {
-    padding: 10px 20px;
-    margin-bottom: 100px;
     font-size: 14px;
   }
   .program-btn-close::after {
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(30%, -100%);
+  }
+  .speek-participants__title {
+    font-size: 28px;
+  }
+  .wrapper-tarifs-and-criterion {
+    background-size: contain;
+    background-position: top;
+    background-repeat: repeat;
+  }
+  .speek-participants-list {
+    flex-wrap: wrap;
+  }
+  .speek-participants-list__item {
+    width: 48%;
   }
   .video-block__title {
+    font-size: 22px;
     position: static;
     transform: translateX(0);
     white-space: normal;
   }
   .reviews-content p {
-      font-size: 16px;
+    font-size: 16px;
   }
   .swiper-wrapper {
     align-items: flex-start;
   }
   .questions-title,
   .reviews-title {
-      font-size: 30px;
+    font-size: 30px;
   }
   .accordion {
     font-size: 14px;
   }
-  .block-wrapper-content  {
-      padding: 20px
+  .block-wrapper-content {
+    padding: 20px;
   }
   .block-wrapper-content p {
     font-size: 16px;
   }
   .modal-programs-wrapper {
-      overflow-y: scroll;
+    overflow-y: scroll;
   }
   .modal-programs.active {
-      width: 100%;
-      left: 0;
-      top: 0;
-      transform: translate(0,0);
-      border-radius: 0;
-      padding: 20px;
-      overflow: scroll;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    padding: 20px;
+    overflow: scroll;
   }
   .modal-programs__titile {
-      font-size: 20px;
+    font-size: 20px;
   }
   .modal-programs-list li p {
     font-size: 14px;
+  }
+  .js-video-block-iframe iframe {
+    width: 300px;
+    height: 200px;
   }
 }

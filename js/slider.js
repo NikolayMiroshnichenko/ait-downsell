@@ -1,5 +1,6 @@
 var swiper = new Swiper(".js-reviews-slider", {
   slidesPerView: 1,
+  autoHeight: true,
   navigation: {
     nextEl: ".reviews-btn__next",
     prevEl: ".reviews-btn__prev",
