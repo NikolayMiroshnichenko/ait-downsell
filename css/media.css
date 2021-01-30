@@ -1,0 +1,244 @@
+@media (max-width: 1440px) {
+  .reviews-btn__next {
+    right: 0;
+  }
+  .reviews-btn__prev {
+    left: 0;
+  }
+}
+@media (max-width: 1270px) {
+  .program {
+    width: 968px;
+  }
+  .nav {
+    width: 20%;
+  }
+  .nav-list__item a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1190px) {
+  .container {
+    width: 720px;
+  }
+  .nav {
+    width: 30%;
+  }
+  .main-title {
+    font-size: 36px;
+  }
+  .criterion-title,
+  .conditions-title,
+  .about-tariff-title {
+    font-size: 24px;
+    padding: 0 10%;
+  }
+  .about-tariff-list__link {
+    width: 220px;
+    height: 220px;
+  }
+  .conditions-text {
+    padding: 0 15%;
+  }
+  .conditions-list__item {
+    width: 100%;
+  }
+  .program-list__item {
+    width: calc(100% - 40px);
+    margin-left: 40px;
+  }
+  .program-btn-close {
+    margin-bottom: 70px;
+  }
+  .program-btn-close span {
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 20px 0;
+    transform: translateY(0);
+  }
+  .criterion-list__item {
+    width: 100%;
+  }
+  .tariffs-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tariffs-list__item {
+    margin-bottom: 40px;
+  }
+  .video-block {
+    width: 100%;
+  }
+  .video-block__title {
+    font-size: 26px;
+  }
+  .autor {
+    flex-direction: column-reverse;
+  }
+  .autor-content,
+  .autor-img {
+    width: 100%;
+  }
+  .reviews-slider {
+    width: 100% !important;
+  }
+  .reviews-btn {
+    top: 100%;
+    transform: translateY(-15px);
+  }
+  .reviews-btn__prev svg,
+  .reviews-btn__prev,
+  .reviews-btn__next,
+  .reviews-btn__next svg {
+    width: 30px;
+    height: 30px;
+  }
+  .reviews-btn__next,
+  .reviews-video-btn__next {
+    right: 20%;
+  }
+  .reviews-btn__prev,
+  .reviews-video-btn__prev {
+    left: 20%;
+  }
+  .questions-block {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-item {
+    margin-bottom: 20px;
+  }
+  .footer-item__link,
+  .footer-item__text {
+    text-align: center;
+  }
+  .modal-programs.active {
+    width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  br {
+    display: none;
+  }
+  .main-wrapper {
+    margin-bottom: 20px;
+  }
+  .nav {
+    width: 70%;
+  }
+  .program-button {
+    width: 100%;
+  }
+  .header {
+    padding: 30px 10px;
+  }
+  .main {
+    padding: 40% 0;
+  }
+  .main-title {
+    font-size: 28px;
+  }
+  .main-text {
+      font-size: 14px;
+    padding-right: 0;
+  }
+  .btn {
+      padding: 10px 20px;
+    font-size: 14px;
+  }
+  .about-tariff-title {
+    padding: 0;
+    font-size: 20px;
+  }
+  .program-text,
+  .conditions-text,
+  .about-tariff-text {
+    padding: 0;
+    font-size: 16px;
+  }
+  .about-tariff-list {
+    justify-content: center;
+  }
+  .program-title {
+    padding: 0;
+  }
+  .program-list__item {
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    padding-left: 30px;
+  }
+  .program-list__number {
+    width: 40px;
+    height: 40px;
+  }
+  .program-list__number {
+    font-size: 16px;
+  }
+  .program-content__name {
+    text-align: center;
+  }
+  .program-content__btn.text,
+  .program-content-list-block p {
+    font-size: 14px;
+  }
+  .program-button {
+    box-sizing: border-box;
+  }
+  .program-btn-close {
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    font-size: 14px;
+  }
+  .program-btn-close::after {
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+  .video-block__title {
+    position: static;
+    transform: translateX(0);
+    white-space: normal;
+  }
+  .reviews-content p {
+      font-size: 16px;
+  }
+  .swiper-wrapper {
+    align-items: flex-start;
+  }
+  .questions-title,
+  .reviews-title {
+      font-size: 30px;
+  }
+  .accordion {
+    font-size: 14px;
+  }
+  .block-wrapper-content  {
+      padding: 20px
+  }
+  .block-wrapper-content p {
+    font-size: 16px;
+  }
+  .modal-programs-wrapper {
+      overflow-y: scroll;
+  }
+  .modal-programs.active {
+      width: 100%;
+      left: 0;
+      top: 0;
+      transform: translate(0,0);
+      border-radius: 0;
+      padding: 20px;
+      overflow: scroll;
+  }
+  .modal-programs__titile {
+      font-size: 20px;
+  }
+  .modal-programs-list li p {
+    font-size: 14px;
+  }
+}
